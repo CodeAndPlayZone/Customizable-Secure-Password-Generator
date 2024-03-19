@@ -40,6 +40,11 @@ Contributing
 
 Your contributions are welcome! If you have suggestions for improving this script or have developed additional features, please share by opening an issue or a pull request on the GitHub repository.
 
+Fix Changelog
+Version 1.1.0
+Bug Fixes:
+	•	Clipboard Copying Issue: Implemented the copyToClipboard function using Pasteboard.copyString(text) to resolve the issue where generated passwords were not automatically copied to the clipboard. This update ensures that users can now effortlessly copy and use their generated passwords.
+
 License
 
 This script is released under the MIT License. Feel free to use, modify, and distribute it as you see fit.
